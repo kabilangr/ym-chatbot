@@ -64,11 +64,12 @@ h1 {
   color: antiquewhite;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-decoration: underline;
 }
 
 .head {
   color: antiquewhite;
-  padding-left: 10px;
+  padding-left: 50px;
 }
 
 @media (max-width: 1076px) {
