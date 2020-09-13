@@ -1,0 +1,21 @@
+<div class="body">
+  <h1>Welcome Pizza chatbox LoLo</h1>
+  <div class="head" id="wordfun"></div>
+  <h2 class="loading" *ngIf="loading">Loading....</h2>
+  <div class="menu">
+    <div class="d" *ngFor="let item of s">
+      <h2 class="title">{{ item.name }}</h2>
+      <h3 class="details">{{ item.description }}</h3>
+      <p class="price">Regular: {{ item.regular }}</p>
+      <p class="price">Medium: {{ item.medium }}</p>
+      <p class="price">Large: {{ item.large }}</p>
+    </div>
+  </div>
+  <div class="chatbox">
+    <form class="l">
+      <input class="textbox" type="text" name="items" #items />
+      <button class="btn" (click)="reply(items.value)" type="button">Send</button>
+    </form>
+    <br />
+  </div>
+</div>
