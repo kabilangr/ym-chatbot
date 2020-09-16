@@ -1,2 +1,8 @@
 PizzaApi is used to fetch data of the menu from the data base.
 Pizza is the Angular project.
+
+
+<---note--->
+Add menu to the data-base
+Run java app to make server
+then run the angular app
